@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>1. open cmnd
+2. assign clone data to tv
+3. click upgarde</description>
+   <name>CMND</name>
+   <tag>CMND</tag>
+   <comment></comment>
+   <testCaseGuid>4dba49a2-6c88-4bbc-8ba5-291b3a85cf21</testCaseGuid>
+</TestCaseEntity>

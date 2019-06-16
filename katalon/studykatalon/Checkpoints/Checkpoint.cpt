@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkpoint>
+   <description></description>
+   <name>Checkpoint</name>
+   <tag></tag>
+   <db-source-info>
+      <is-from-test-data>false</is-from-test-data>
+      <source-url>jdbc:mysql://localhost:3306/smartinstall</source-url>
+      <source-type>DBData</source-type>
+      <is-using-global-db-setting>false</is-using-global-db-setting>
+      <is-secure-user-account>true</is-secure-user-account>
+      <user>root</user>
+      <password>UCpxNFQ1d3MwV2sjMkpk</password>
+      <query><![CDATA[select * from devices]]></query>
+   </db-source-info>
+   <checkpoint-data><![CDATA[null]]></checkpoint-data>
+</checkpoint>

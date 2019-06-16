@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Katalon-while</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d3df3420-1bb6-453a-8924-22bff8846bac</testCaseGuid>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>b249acb8-de2b-417c-8807-6f1097c06ed4</id>
+      <masked>false</masked>
+      <name>countRecyle</name>
+   </variable>
+</TestCaseEntity>

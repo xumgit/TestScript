@@ -1,0 +1,9 @@
+###
+#/Libs/
+/bin/
+/Scripts/
+
+/.settings
+/.classpath
+/.project
+/Reports
