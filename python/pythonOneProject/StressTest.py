@@ -11,15 +11,14 @@ import traceback
 import datetime
 import os
 import time
-import RecordVideo
 
-MAC_List = ['70AF241366FF']
-Test_Times = 1
-Select_Clone_Type = 'Clone'
-select_Clone_File = 'CypressTestCloneData'
-AssignCloneData_WAIT_TIME = 60
-UpgradeInProgress_WAIT_TIME = 60
-NotInUpgradeMode_WAIT_TIME = 60
+MAC_List = ['70AF241366FF']                  # mac address with :
+Test_Times = 1                               # how time want to test
+Select_Clone_Type = 'Clone'                  # upgrade type
+select_Clone_File = 'CypressTestCloneData'   # select clone file name, contains this name
+AssignCloneData_WAIT_TIME = 60               # assign data wait time(seconds)
+UpgradeInProgress_WAIT_TIME = 60             # wait upgradeInprogress time(seconds)
+NotInUpgradeMode_WAIT_TIME = 60              # wait notInUpgradeMode time(seconds)
 
 def remove_logfile():
     if os.path.isfile('logs.txt'):
@@ -303,8 +302,6 @@ def startStress():
 
 if __name__ == '__main__':
     print("==========start Stress Test case==========")
-    #recordVideo = RecordVideo.RecordVideo()
-    #recordVideo.startRecord()
     remove_logfile()
     dr = precondition_setup()
     unSelectAll(dr)

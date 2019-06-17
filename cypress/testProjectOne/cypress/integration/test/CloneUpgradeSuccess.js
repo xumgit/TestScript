@@ -33,7 +33,7 @@ context('Unit Test', () => {
 
   beforeEach(function() {
 	    cy.log('beforeEach => runs before each test in the block')
-      cy.fixture('tvdata.json').as('TVData')
+        cy.fixture('tvdata.json').as('TVData')
   })
 
   afterEach(function() {
@@ -217,6 +217,7 @@ context('Unit Test', () => {
 
   function six_Assign_Clone_data() {
         cy.log("Assign Clone data, then check blue color")
+        let assignIdentifier = "10/06/2019:15:05"
         cy.wait(3000)
         cy.get('@TVData').then((tvData) => {
             cy.get("#tvsBody tr[data-row-id=\"" + tvData.TVUniqueID + "\"]")
@@ -227,7 +228,7 @@ context('Unit Test', () => {
                     .click()
                     .then(($dom) => {
                         cy.wait(1000)
-                        $dom.find("ul li:eq(3)").click()
+                        $dom.find("ul li:eq(5)").click() // click channels
                         cy.wait(3000)
                         cy.get("#assignSelectRows > tr")
                             //.its('length')
@@ -236,7 +237,7 @@ context('Unit Test', () => {
                             //.click()
                             .each(($tr, index, $arrList) => {
                                 let selectText = $tr.find("td").eq(0).text()
-                                cy.log("text_" + index + ":" + selectText)
+                                //cy.log("text_" + index + ":" + selectText)
                                 if (selectText.indexOf('CypressTestCloneData') > -1) {
                                     cy.log("CloneData select success")
                                     $tr.click()                              
@@ -247,10 +248,21 @@ context('Unit Test', () => {
                                 cy.get("#tvsBody tr[data-row-id=\"" + tvData.TVUniqueID + "\"]")
                                 .find("#tv_CloneDiv")
                                 .should('have.css', 'color', tvData.BlueColor)
+                                .then(($tvCloneDiv) => {
+                                    let assignCloneIdentifier = $tvCloneDiv.attr("sicloneident")
+                                    //cy.log("assignCloneIdentifier:" + assignCloneIdentifier)
+                                    let IdentifierArr = assignCloneIdentifier.split("-")
+                                    let yeatMonthDay = IdentifierArr[0].split("/")
+                                    let hourMinutesSeconds = IdentifierArr[1].split(":")
+                                    assignIdentifier = "\"" + yeatMonthDay[2] + "/" + yeatMonthDay[1] + "/" + yeatMonthDay[0] 
+                                                        + ":" + hourMinutesSeconds[0] + ":" + hourMinutesSeconds[1] + "\"" 
+                                    cy.log("assignIdentifier:" + assignIdentifier)
+                                })
                             })
                     })
                 })
         })
+        return assignIdentifier
   }
 
   function seven_Click_Upgrade_button() {
@@ -307,18 +319,18 @@ context('Unit Test', () => {
         })
   }
 
-  function nine_Emulator_TV_Response_NotInUpgradeMode() {
+  function nine_Emulator_TV_Response_NotInUpgradeMode(assignIdentifier) {
         cy.log("Emulator TV response NotInUpgradeMode, then check clone green color")
         cy.wait(3000)
         cy.get('@TVData').then((tvData) => {
             commonRequest.url = tvData.WebServicesUrl;
             let changeDataObj = {}
-            changeDataObj[tvData.CloneItems["TVChannelList"]] = "04/06/2019:01:39";
-            changeDataObj[tvData.CloneItems["HTVCfg.xml"]] = "04/06/2019:15:15";
-            changeDataObj[tvData.CloneItems["ProfessionalAppsData"]] = "04/06/2019:15:15";
-            changeDataObj[tvData.CloneItems["RoomSpecificSettings"]] = "24/08/2018:11:45";
-            changeDataObj[tvData.CloneItems["Schedules"]] = "23/08/2018:10:34";
-            changeDataObj[tvData.CloneItems["TVSettings"]] = "04/06/2019:13:39";
+            changeDataObj[tvData.CloneItems["TVChannelList"]] = assignIdentifier;
+            changeDataObj[tvData.CloneItems["HTVCfg.xml"]] = assignIdentifier;
+            changeDataObj[tvData.CloneItems["ProfessionalAppsData"]] = assignIdentifier;
+            changeDataObj[tvData.CloneItems["RoomSpecificSettings"]] = assignIdentifier;
+            changeDataObj[tvData.CloneItems["Schedules"]] = assignIdentifier;
+            changeDataObj[tvData.CloneItems["TVSettings"]] = assignIdentifier;
             let data = changeData(tvData, changeDataObj)
             commonRequest.body = JSON.stringify(data.NotInUpgradeModeData);
             cy.request(commonRequest).then((resp) => {
@@ -411,10 +423,10 @@ context('Unit Test', () => {
       three_Send_TVDiscovery_data()
       four_Send_IPClonservice_data()
       five_Select_TV()
-      six_Assign_Clone_data()
+      let assignIdentifier = six_Assign_Clone_data()
       seven_Click_Upgrade_button()
       eight_Emulator_TV_Response_UpgradeInprogress()
-      nine_Emulator_TV_Response_NotInUpgradeMode()
+      nine_Emulator_TV_Response_NotInUpgradeMode(assignIdentifier)
       ten_Click_Info_Dialog_button()
       eleven_delete_TV()
   })

@@ -11,7 +11,7 @@ class RecordVideo:
     def startRecord(self):
         fps = 25
         start = 3  # delay time start
-        end = 30  # end time
+        end = 10  # end time
         
         curScreen = ImageGrab.grab()  # grab screen object
         height, width = curScreen.size
@@ -21,6 +21,7 @@ class RecordVideo:
         imageNum = 0
         executeOne = True
         while True:
+           
             imageNum += 1
             captureImage = ImageGrab.grab()  # grab window
             frame = cv2.cvtColor(np.array(captureImage), cv2.COLOR_RGB2BGR)
@@ -35,16 +36,18 @@ class RecordVideo:
 
             # quite condition   
             if cv2.waitKey(50) == ord('q') or imageNum > fps * end:
-                break
-            if (executeOne):
-                executeOne = False
-                StressTest.startStress()
+                break 
+            else:
+                if (executeOne):
+                    executeOne = False
+                    #StressTest.startStress()
         video.release()
         cv2.destroyAllWindows()
 
 if __name__ == '__main__':
-    print("==========start Stress Test case==========")
+    print("==========start Stress Test case==========") 
+    StressTest.startStress()
     recordVideo = RecordVideo()
     recordVideo.startRecord()
-    #StressTest.startStress()
+    
     print("===========end Stress Test case===========")
