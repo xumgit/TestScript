@@ -11,14 +11,15 @@ import traceback
 import datetime
 import os
 import time
+import RecordVideo
 
-MAC_List = ['70AF241A9751']
-Test_Times = 3
-Select_Clone_Type = 'Channels'
+MAC_List = ['70AF241366FF']
+Test_Times = 1
+Select_Clone_Type = 'Clone'
 select_Clone_File = 'CypressTestCloneData'
-AssignCloneData_WAIT_TIME = 30
-UpgradeInProgress_WAIT_TIME = 30
-NotInUpgradeMode_WAIT_TIME = 30
+AssignCloneData_WAIT_TIME = 60
+UpgradeInProgress_WAIT_TIME = 60
+NotInUpgradeMode_WAIT_TIME = 60
 
 def remove_logfile():
     if os.path.isfile('logs.txt'):
@@ -122,7 +123,10 @@ def clone_selection_test(dr, loopno, devicemac, seletCloneType, selectCloneFile)
                 logger("Thread: %d, the %s time, ipAddress: %s, AssignCloneData, Color not change" % (threading.get_ident(), str(index), str(ipAddress)))
         logger("Thread: %d, the %s time, ipAddress: %s, AssignCloneData" % (threading.get_ident(), str(index), str(ipAddress)))       
         time.sleep(1)
-        checkCloneColor(dr, index, devicemac, "AssignCloneData", "rgba(0, 0, 255, 1)")
+        if not preConditionCheckCloneColor(dr, devicemac, "rgba(0, 0, 255, 1)"):
+            checkCloneColor(dr, index, devicemac, "AssignCloneData", "rgba(0, 0, 255, 1)")
+        else:
+            logger("Thread: %d, the %s time, ipAddress: %s, logType: %s, checkColor success" % (threading.get_ident(), str(index), str(ipAddress), "AssignCloneData"))
         clickStartUpgrade(dr, devicemac)
         logger("Thread: %d, the %s time, ipAddress: %s, wait response UpgradeInProgress" % (threading.get_ident(), str(index), str(ipAddress)))
         print("the " + str(index) + " time, wait response UpgradeInProgress")
@@ -138,7 +142,10 @@ def clone_selection_test(dr, loopno, devicemac, seletCloneType, selectCloneFile)
             #     dr.refresh()
             #     dr.implicitly_wait(60)      
         time.sleep(1)
-        checkCloneColor(dr, index, devicemac, "UpgradeInProgress", "rgba(255, 191, 0, 1)")
+        if not preConditionCheckCloneColor(dr, devicemac, "rgba(255, 191, 0, 1)"):
+            checkCloneColor(dr, index, devicemac, "UpgradeInProgress", "rgba(255, 191, 0, 1)")
+        else:
+            logger("Thread: %d, the %s time, ipAddress: %s, logType: %s, checkColor success" % (threading.get_ident(), str(index), str(ipAddress), "UpgradeInProgress"))
         logger("Thread: %d, the %s time, ipAddress: %s, wait response NotInUpgradeMode" % (threading.get_ident(), str(index), str(ipAddress)))
         print("the " + str(index) + " time, wait response NotInUpgradeMode")
         element = (By.XPATH, xpath_circleImg)
@@ -152,7 +159,10 @@ def clone_selection_test(dr, loopno, devicemac, seletCloneType, selectCloneFile)
             #     dr.refresh()
             #     dr.implicitly_wait(60)            
         time.sleep(1)
-        checkCloneColor(dr, index, devicemac, "NotInUpgradeMode", "rgba(1, 223, 1, 1)")
+        if not preConditionCheckCloneColor(dr, devicemac, "rgba(1, 223, 1, 1)"):
+            checkCloneColor(dr, index, devicemac, "NotInUpgradeMode", "rgba(1, 223, 1, 1)")
+        else:
+            logger("Thread: %d, the %s time, ipAddress: %s, logType: %s, checkColor success" % (threading.get_ident(), str(index), str(ipAddress), "NotInUpgradeMode"))     
         circleImgStatus = dr.find_element_by_xpath(xpath_circleImg).is_displayed()
         #print("the " + str(index) + " time, circleImgStatus:" + str(circleImgStatus))
         if circleImgStatus:
@@ -242,6 +252,15 @@ def assignClonePackage(dr, seletCloneType, selectCloneFile):
             break
     time.sleep(1)
 
+def preConditionCheckCloneColor(dr, devicemac, color):
+    preColor = False
+    xpath_data = "//tbody[@id='tvsBody']/tr[contains(@data-row-id,'%s')]/td[10]/div" % devicemac
+    tvObj = dr.find_element_by_xpath(xpath_data)
+    colorValue = tvObj.value_of_css_property("color")
+    if (color == colorValue):
+        preColor = True
+    return preColor
+
 def checkCloneColor(dr, index, devicemac, logType, color):
     xpath_data = "//tbody[@id='tvsBody']/tr[contains(@data-row-id,'%s')]/td[10]/div" % devicemac
     tvObj = dr.find_element_by_xpath(xpath_data)
@@ -274,8 +293,18 @@ def thread_creators(dr, loopno, mac_list, selectCloneType, selectCloneFile):
     except:
         print(traceback.print_exc())
 
+def startStress():
+    remove_logfile()
+    dr = precondition_setup()
+    unSelectAll(dr)
+    thread_creators(dr, Test_Times, MAC_List, Select_Clone_Type, select_Clone_File)
+    time.sleep(5)
+    dr.quit()
+
 if __name__ == '__main__':
     print("==========start Stress Test case==========")
+    #recordVideo = RecordVideo.RecordVideo()
+    #recordVideo.startRecord()
     remove_logfile()
     dr = precondition_setup()
     unSelectAll(dr)

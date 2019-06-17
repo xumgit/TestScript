@@ -3,6 +3,10 @@
 
 ### `pip install selenium-requests`
 
+### `pip install pillow`
+
+### `pip install opencv-python` 
+
 ## How Start Python script
 Base build local server, should be install nodejs,  
 run the follow command with cmd:  
