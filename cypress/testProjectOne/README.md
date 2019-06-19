@@ -1,5 +1,5 @@
 # TestScript
-## Thanks for you coming, best wishes for you.
+## Thanks for you coming, Best wishes for you.
 
 ## You can got to follow url to further study:  
 https://www.cnblogs.com/xumBlog/p/10991467.html
@@ -8,7 +8,7 @@ https://www.cnblogs.com/xumBlog/p/10991467.html
 ### `npm run cy:open`            
     open cypess window
 ### `npm run cy:run`      
-    run file
+    run all file
 ### `npm run cy:run:spec`      
     run spcial file
 
