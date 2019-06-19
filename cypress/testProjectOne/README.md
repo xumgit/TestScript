@@ -4,6 +4,14 @@
 ## You can got to follow url to further study:  
 https://www.cnblogs.com/xumBlog/p/10991467.html
 
+## In package.json file, add follow command:  
+### `npm run cy:open`            
+    open cypess window
+### `npm run cy:run`      
+    run file
+### `npm run cy:run:spec`      
+    run spcial file
+
 ## How Start Cypress project
 should be install Node.js , then open cmd:  
 cd (testProjectOne path)/  
