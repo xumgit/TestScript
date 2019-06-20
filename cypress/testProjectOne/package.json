@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "cy:run": "cypress run",
     "cy:open": "cypress open",
-    "cy:run:spec": "cypress run --spec \"cypress/integration/test/CloneUpgradeSuccess.js\""
+    "cy:run:spec": "cypress run --spec \"cypress/integration/test/CloneUpgradeSuccess.js\"",
+    "cy:run:StressTest": "cypress run --spec \"cypress/integration/test/StressTest.js\""
   },
   "author": "",
   "license": "ISC",

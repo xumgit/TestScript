@@ -30,4 +30,4 @@ import "cypress-file-upload"
 // failed-log plugin
 import 'cypress-failed-log'
 
-import '../integration/test/common/commonFunction.js'
+//import '../integration/test/common/commonFunction.js'

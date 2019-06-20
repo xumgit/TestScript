@@ -1,33 +1,39 @@
-//const commonFun = require('common/commonFunction.js')
-var generateTvs = 2
-//import 'common/commonFunction'
+const {generateTVDiscovery, generateReadyForUpgrade, generateUpGradeInProgress, generateNotInUpgradeMode} = require('../../fixtures/commonFunction.js')
+const {Login_CMND_page, Navigation_to_TVS_tv_page, Select_AllTV} = require('../../fixtures/cmndFunction.js')
+var generateTvs = 5
 
-function Send_TVDiscovery_data(tvData) {
-    cy.log("Send TVDiscovery, generate a emulator tv")
-    cy.wait(3000)
-    //console.log("TVDiscoveryData:" + tvData.TVDiscoveryData);
-    commonRequest.url = tvData.WebServicesUrl
-    commonRequest.body = JSON.stringify(tvData.TVDiscoveryData);
-    cy.request(commonRequest).then((resp)=>{
-        //console.log("resp:" + JSON.stringify(resp));
-        cy.log("send TVDiscovery status:" + resp.status)
-        cy.wait(1000)             
-    })
-}
 
-context('Unit Test', () => {
+
+context('Stress Test', () => {
     beforeEach(function() {
 	    cy.log('beforeEach => runs before each test in the block')
         cy.fixture('tvdata.json').as('TVData')
     })
 
+    it('Open CMND Page and Login', () => {
+        //Login_CMND_page();
+        //cy.wait(2000);
+        //Navigation_to_TVS_tv_page();
+    })
 
-    it('Send Many TVS', () => {
+    it('Genarate Many TVs', () => {
+        cy.wait(2000);
         cy.get('@TVData').then((tvData) => {
-            for (let i = 0; i < generateTvs; i++) {
-                let ipaddress = generateIpAddress(i);
-                console.log("ipaddress:" + ipaddress)
-            }
+            let changeCloneItem = {};
+            changeCloneItem[tvData.CloneItems["TVChannelList"]] = "01/06/2019:08:05";
+            generateTVDiscovery(tvData, generateTvs);
         })
+    })
+
+    it('Send ReadForUpgrade for display SW version', () => {
+        cy.wait(2000);
+        cy.get('@TVData').then((tvData) => {
+            generateReadyForUpgrade(tvData, generateTvs);
+        })
+    })
+
+    it('Select AllTV', () => {
+        //cy.wait(2000);
+        //Select_AllTV();
     })
 })

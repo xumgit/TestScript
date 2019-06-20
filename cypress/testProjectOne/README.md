@@ -11,6 +11,8 @@ https://www.cnblogs.com/xumBlog/p/10991467.html
     run all file
 ### `npm run cy:run:spec`      
     run spcial file
+### `npm run cy:run:StressTest`      
+    run StressTest spcial file
 
 ## How Start Cypress project
 should be install Node.js , then open cmd:  
