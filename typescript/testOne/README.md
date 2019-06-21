@@ -13,5 +13,7 @@
     mkdir typescript
     cd typescript
     tsc --init
-    tsc ts/index.ts
-    node js/index.js
+    tsc index.ts
+    node index.js
+
+    or tsc index.ts && node index.js
