@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description>Dictionary to find the Test Object of the clone item idetifiers inside the More Info dialog from the Object Repository using the CloneItemName.</description>
+   <name>CloneItemName2TestObject</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>93fcf7a0-8f7d-4c05-a9a7-1ba6b34507e9</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>MainFirmware Page_SmartInstall+-+Manage+TV++IP+s%2FMore+Info+dialog%2FCurrent+firmware+value</data>
+   <data>TVSettings Page_SmartInstall+-+Manage+TV++IP+s%2FMore+Info+dialog%2FCurrent+TV+Settings+value</data>
+   <data>TVChannelList Page_SmartInstall+-+Manage+TV++IP+s%2FMore+Info+dialog%2FCurrent+TVChannel+List+value</data>
+   <data>WelcomeLogo Page_SmartInstall+-+Manage+TV++IP+s%2FMore+Info+dialog%2FCurrent+Welcome+Logo+value</data>
+   <data>SmartInfoImages Page_SmartInstall+-+Manage+TV++IP+s%2FMore+Info+dialog%2FCurrent+Smart+Info+Images+value</data>
+   <data>SmartInfoPages Page_SmartInstall+-+Manage+TV++IP+s%2FMore+Info+dialog%2FCurrent+Smart+Info+Pages+value</data>
+   <data>CustomDashboardFallback Page_SmartInstall+-+Manage+TV++IP+s%2FMore+Info+dialog%2FCurrent+Local+Custom+Dashboard+value</data>
+   <data>AndroidApps Page_SmartInstall+-+Manage+TV++IP+s%2FMore+Info+dialog%2FCurrent+Android+Apps+value</data>
+   <data>MediaChannels Page_SmartInstall+-+Manage+TV++IP+s%2FMore+Info+dialog%2FCurrent+Media+channels+value</data>
+   <data>RoomSpecificSettings Page_SmartInstall+-+Manage+TV++IP+s%2FMore+Info+dialog%2FCurrent+Room+Specific+Settings+value</data>
+   <data>HTVCfg Page_SmartInstall+-+Manage+TV++IP+s%2FMore+Info+dialog%2FCurrent+HTV+Cfg+value</data>
+   <data>Script Page_SmartInstall+-+Manage+TV++IP+s%2FMore+Info+dialog%2FCurrent+Script+value</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>CloneItemName</name>
+      <size>12</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>MoreInfoTestObject</name>
+      <size>12</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

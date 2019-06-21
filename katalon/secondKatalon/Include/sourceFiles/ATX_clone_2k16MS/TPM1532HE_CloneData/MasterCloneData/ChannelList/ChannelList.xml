@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<TvContents>
+  <SchemaVersion MajorVerNo="2" MinorVerNo="0" />
+  <ChannelMap>
+    <Channel>
+      <Broadcast medium="dvbc" frequency="306000" system="west" serviceID="1005" ONID="1" TSID="10" modulation="auto" symbolrate="6875000" bandwidth="Auto" servicetype="TV" />
+      <Setup presetnumber="1" name="vtm HD" blank="0" skip="0" FreePKG="1" PayPKG1="0" PayPKG2="0" TTV1="0" TTV2="0" TTV3="0" TTV4="0" TTV5="0" TTV6="0" TTV7="0" TTV8="0" TTV9="0" TTV10="0" />
+    </Channel>
+    <Channel>
+      <Broadcast medium="dvbc" frequency="298000" system="west" serviceID="1103" ONID="1" TSID="11" modulation="auto" symbolrate="6875000" bandwidth="Auto" servicetype="TV" />
+      <Setup presetnumber="2" name="één HD" blank="0" skip="0" FreePKG="1" PayPKG1="0" PayPKG2="0" TTV1="0" TTV2="0" TTV3="0" TTV4="0" TTV5="0" TTV6="0" TTV7="0" TTV8="0" TTV9="0" TTV10="0" />
+    </Channel>
+    <Channel>
+      <Broadcast medium="dvbc" frequency="314000" system="west" serviceID="912" ONID="1" TSID="9" modulation="auto" symbolrate="6875000" bandwidth="Auto" servicetype="TV" />
+      <Setup presetnumber="3" name="VIER HD" blank="0" skip="0" FreePKG="1" PayPKG1="0" PayPKG2="0" TTV1="0" TTV2="0" TTV3="0" TTV4="0" TTV5="0" TTV6="0" TTV7="0" TTV8="0" TTV9="0" TTV10="0" />
+    </Channel>
+    <Channel>
+      <Broadcast medium="dvbt" frequency="482000" system="west" serviceID="4128" ONID="8248" TSID="1" modulation="64" symbolrate="0" bandwidth="8MHz" servicetype="TV" />
+      <Setup presetnumber="100" name="Canvas" blank="0" skip="0" FreePKG="1" PayPKG1="0" PayPKG2="0" TTV1="0" TTV2="0" TTV3="0" TTV4="0" TTV5="0" TTV6="0" TTV7="0" TTV8="0" TTV9="0" TTV10="0" />
+    </Channel>
+    <Channel>
+      <Broadcast medium="dvbt" frequency="482000" system="west" serviceID="4112" ONID="8248" TSID="1" modulation="64" symbolrate="0" bandwidth="8MHz" servicetype="TV" />
+      <Setup presetnumber="101" name="EEN" blank="0" skip="0" FreePKG="1" PayPKG1="0" PayPKG2="0" TTV1="0" TTV2="0" TTV3="0" TTV4="0" TTV5="0" TTV6="0" TTV7="0" TTV8="0" TTV9="0" TTV10="0" />
+    </Channel>
+    <Channel>
+      <Broadcast medium="dvbt" frequency="482000" system="west" serviceID="4144" ONID="8248" TSID="1" modulation="64" symbolrate="0" bandwidth="8MHz" servicetype="TV" />
+      <Setup presetnumber="102" name="Ketnet" blank="0" skip="0" FreePKG="1" PayPKG1="0" PayPKG2="0" TTV1="0" TTV2="0" TTV3="0" TTV4="0" TTV5="0" TTV6="0" TTV7="0" TTV8="0" TTV9="0" TTV10="0" />
+    </Channel>
+    <Channel>
+      <Broadcast medium="analog" frequency="203250" system="west" serviceID="44865" ONID="65535" TSID="42336" modulation="auto" symbolrate="0" bandwidth="Auto" servicetype="TV" />
+      <Setup presetnumber="301" name="EEN  " blank="0" skip="0" FreePKG="1" PayPKG1="0" PayPKG2="0" TTV1="0" TTV2="0" TTV3="0" TTV4="0" TTV5="0" TTV6="0" TTV7="0" TTV8="0" TTV9="0" TTV10="0" />
+    </Channel>
+    <Channel>
+      <Broadcast medium="analog" frequency="217250" system="west" serviceID="44865" ONID="65535" TSID="42336" modulation="auto" symbolrate="0" bandwidth="Auto" servicetype="TV" />
+      <Setup presetnumber="302" name="CANV " blank="0" skip="0" FreePKG="1" PayPKG1="0" PayPKG2="0" TTV1="0" TTV2="0" TTV3="0" TTV4="0" TTV5="0" TTV6="0" TTV7="0" TTV8="0" TTV9="0" TTV10="0" />
+    </Channel>
+    <Channel>
+      <Broadcast medium="analog" frequency="189250" system="west" serviceID="44865" ONID="65535" TSID="42336" modulation="auto" symbolrate="0" bandwidth="Auto" servicetype="TV" />
+      <Setup presetnumber="303" name="VTM  " blank="0" skip="0" FreePKG="1" PayPKG1="0" PayPKG2="0" TTV1="0" TTV2="0" TTV3="0" TTV4="0" TTV5="0" TTV6="0" TTV7="0" TTV8="0" TTV9="0" TTV10="0" />
+    </Channel>
+    <Channel>
+      <Source type="HDMI1" />
+      <Setup presetnumber="323" name="HDMI1" blank="0" skip="0" FreePKG="1" PayPKG1="0" PayPKG2="0" TTV1="0" TTV2="0" TTV3="0" TTV4="0" TTV5="0" TTV6="0" TTV7="0" TTV8="0" TTV9="0" TTV10="0" />
+    </Channel>
+    <Channel>
+      <Source type="HDMI2" />
+      <Setup presetnumber="324" name="HDMI2" blank="0" skip="0" FreePKG="1" PayPKG1="0" PayPKG2="0" TTV1="0" TTV2="0" TTV3="0" TTV4="0" TTV5="0" TTV6="0" TTV7="0" TTV8="0" TTV9="0" TTV10="0" />
+    </Channel>
+    <Channel>
+      <Source type="HDMI3" />
+      <Setup presetnumber="325" name="HDMI3" blank="0" skip="0" FreePKG="1" PayPKG1="0" PayPKG2="0" TTV1="0" TTV2="0" TTV3="0" TTV4="0" TTV5="0" TTV6="0" TTV7="0" TTV8="0" TTV9="0" TTV10="0" />
+    </Channel>
+    <Channel>
+      <Source type="HDMI4" />
+      <Setup presetnumber="326" name="HDMI4" blank="0" skip="0" FreePKG="1" PayPKG1="0" PayPKG2="0" TTV1="0" TTV2="0" TTV3="0" TTV4="0" TTV5="0" TTV6="0" TTV7="0" TTV8="0" TTV9="0" TTV10="0" />
+    </Channel>
+    <Channel>
+      <Source type="YPBPR" />
+      <Setup presetnumber="327" name="YPBPR" blank="0" skip="0" FreePKG="1" PayPKG1="0" PayPKG2="0" TTV1="0" TTV2="0" TTV3="0" TTV4="0" TTV5="0" TTV6="0" TTV7="0" TTV8="0" TTV9="0" TTV10="0" />
+    </Channel>
+    <Channel>
+      <Source type="SCART" />
+      <Setup presetnumber="328" name="SCART" blank="0" skip="0" FreePKG="1" PayPKG1="0" PayPKG2="0" TTV1="0" TTV2="0" TTV3="0" TTV4="0" TTV5="0" TTV6="0" TTV7="0" TTV8="0" TTV9="0" TTV10="0" />
+    </Channel>
+    <Channel>
+      <Media url="./MediaChannels/2000-2000-bmp.bmp"/>
+      <Setup presetnumber="400" name="BMP" blank="0" skip="0" FreePKG="1" PayPKG1="0" PayPKG2="0" TTV1="0" TTV2="0" TTV3="0" TTV4="0" TTV5="0" TTV6="0" TTV7="0" TTV8="0" TTV9="0" TTV10="0"/>
+    </Channel>
+    <Channel>
+      <Media url="./MediaChannels/4000-4000-png.png"/>
+      <Setup presetnumber="401" name="PNG" blank="0" skip="0" FreePKG="1" PayPKG1="0" PayPKG2="0" TTV1="0" TTV2="0" TTV3="0" TTV4="0" TTV5="0" TTV6="0" TTV7="0" TTV8="0" TTV9="0" TTV10="0"/>
+    </Channel>
+    <Channel>
+      <Media url="./MediaChannels/8000-8000-jpeg.jpg"/>
+      <Setup presetnumber="402" name="JPG" blank="0" skip="0" FreePKG="1" PayPKG1="0" PayPKG2="0" TTV1="0" TTV2="0" TTV3="0" TTV4="0" TTV5="0" TTV6="0" TTV7="0" TTV8="0" TTV9="0" TTV10="0"/>
+    </Channel>
+    <Channel>
+      <Media url="./MediaChannels/FAMILY GUY.mp4"/>
+      <Setup presetnumber="403" name="FAMILY GUY" blank="0" skip="0" FreePKG="1" PayPKG1="0" PayPKG2="0" TTV1="0" TTV2="0" TTV3="0" TTV4="0" TTV5="0" TTV6="0" TTV7="0" TTV8="0" TTV9="0" TTV10="0"/>
+    </Channel>
+    <Channel>
+      <Media url="./MediaChannels/B-MP2PS_N-5.mpg"/>
+      <Setup presetnumber="404" name="MPG" blank="0" skip="0" FreePKG="1" PayPKG1="0" PayPKG2="0" TTV1="0" TTV2="0" TTV3="0" TTV4="0" TTV5="0" TTV6="0" TTV7="0" TTV8="0" TTV9="0" TTV10="0"/>
+    </Channel>
+    <Channel>
+      <Multicast url="multicast://239.192.4.4:1234/0/0/0/VBR" ></Multicast>
+      <Setup presetnumber="500" name="Arte" blank="0" skip="0" FreePKG="1" PayPKG1="0" PayPKG2="0" TTV1="0" TTV2="0" TTV3="0" TTV4="0" TTV5="0" TTV6="0" TTV7="0" TTV8="0" TTV9="0" TTV10="0"></Setup>
+    </Channel>
+    <Channel>
+      <Multicast url="multicast://239.192.3.1:1234/0/0/0/VBR" ></Multicast>
+      <Setup presetnumber="501" name="RTL Österreich" blank="0" skip="0" FreePKG="1" PayPKG1="0" PayPKG2="0" TTV1="0" TTV2="0" TTV3="0" TTV4="0" TTV5="0" TTV6="0" TTV7="0" TTV8="0" TTV9="0" TTV10="0"></Setup>
+    </Channel>
+    <Channel>
+      <Multicast url="multicast://239.192.3.2:1234/0/0/0/VBR" ></Multicast>
+      <Setup presetnumber="502" name="VOX Österreich" blank="0" skip="0" FreePKG="1" PayPKG1="0" PayPKG2="0" TTV1="0" TTV2="0" TTV3="0" TTV4="0" TTV5="0" TTV6="0" TTV7="0" TTV8="0" TTV9="0" TTV10="0"></Setup>
+    </Channel>
+  </ChannelMap>
+  <ApplicationMap>
+    <Application>
+      <App Type="Native" AppName="Apps" />
+      <Setup name="Apps" FreePKG="1" PayPKG1="0" PayPKG2="0" />
+    </Application>
+    <Application>
+      <App Type="Native" AppName="InternetBrowser" />
+      <Setup name="InternetBrowser" FreePKG="1" PayPKG1="0" PayPKG2="0" />
+    </Application>
+    <Application>
+      <App Type="Native" AppName="MediaBrowser" />
+      <Setup name="MediaBrowser" FreePKG="1" PayPKG1="0" PayPKG2="0" />
+    </Application>
+    <Application>
+      <App Type="Native" AppName="Miracast" />
+      <Setup name="Miracast" FreePKG="1" PayPKG1="0" PayPKG2="0" />
+    </Application>
+    <Application>
+      <App Type="Native" AppName="PTA" />
+      <Setup name="PTA" FreePKG="1" PayPKG1="0" PayPKG2="0" />
+    </Application>
+  </ApplicationMap>
+  <ThemeTV />
+</TvContents>

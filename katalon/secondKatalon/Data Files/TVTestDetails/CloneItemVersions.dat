@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>CloneItemVersions</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>7b164ac7-66eb-4f14-a880-e560a0a1f4b2</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>RoomSpecificSettings 00%2F00%2F0000%3A--%3A--</data>
+   <data>WelcomeLogo 26%2F06%2F2018%3A14%3A10</data>
+   <data>TVSettings 11%2F09%2F2018%3A13%3A12</data>
+   <data>MainFirmware TPM1532HE.5.249.5.228</data>
+   <data>TVChannelList 26%2F06%2F2018%3A14%3A10</data>
+   <data>SmartInfoPages 12%2F02%2F2018%3A10%3A16+BigBuckSmartInf</data>
+   <data>CustomDashboardFallback null</data>
+   <data>Script null</data>
+   <data>MediaChannels null</data>
+   <data>AndroidApps 20%2F07%2F2018%3A13%3A10</data>
+   <data>SmartInfoImages 26%2F06%2F2018%3A14%3A10</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>CloneItemName</name>
+      <size>11</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>Version</name>
+      <size>11</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Clone and firmware upgrade were the firmware and one clone item will not be upgrade during the first attempt but they will be upgarded successfully during the second attempt.</description>
+   <name>CloneFirmwareUpgrade - Successfull after retry test</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dc791dc5-4dd8-4f36-ac7f-c7ca37b865f1</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Check more info dialog</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>372132bf-7da7-499b-af35-b1ef24210520</testCaseGuid>
+   <variable>
+      <defaultValue>null</defaultValue>
+      <description></description>
+      <id>cc9b2295-31ec-47ad-8b4e-67dc6ab2475e</id>
+      <masked>false</masked>
+      <name>cloneItemsMoreInfoDialogDetails</name>
+   </variable>
+</TestCaseEntity>

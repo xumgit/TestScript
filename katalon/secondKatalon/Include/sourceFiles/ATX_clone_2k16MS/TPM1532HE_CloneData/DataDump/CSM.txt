@@ -1,0 +1,91 @@
+CSM 1
+1.1 Set type:32HFL5011T/12
+1.2 Production code:01234567891234
+1.4a Options 1:00025 00256 00000 10752
+1.4b Options 2:08206 00211 10305 00544
+1.5 18AC SSB:0TBV315FE2FBN000PLTVEL261XAX4
+1.6 18AC display:
+1.7 18AC supply:
+1.8 18AC sensor board:
+
+CSM 2
+2.1 Current main software:TPM1532HE.5.249.25.212
+2.2 Standby software:0.00.00.019
+2.3 Strings database version:HTV FRS 5.0 - 2018/03/05
+2.8 Channel package version:30.1
+2.11 TV’s Release Status:Production
+2.12 NVM-version:0.32
+
+CSM 3
+3.1 Signal quality:Good
+3.2 Ethernet MAC address:1c:5a:6b:a7:80:4e
+3.3 Wireless MAC address:c4:36:6c:66:ca:a8
+3.4 CI module:NO
+3.5 CI+ protected service:NO
+3.6 Event counter:S:0005 0000 H:0000 0000
+
+CSM 4
+4.1 ChannelList Identifier:15/06/2018:05:33
+4.2 TVSettings Identifier:15/06/2018:16:07
+4.3 WelcomeLogo Identifier:15/06/2018:10:56
+4.4 SmartInfoShow Identifier:15/06/2018:05:43
+4.5 SmartInfoBrowser Identifier:
+4.6 AndroidApps Identifier:00/00/0000:--:--
+4.7 LocalCustomDashboard Identifier:
+4.8 WeatherForecast Identifier:
+4.9 MediaChannels:
+4.10 RoomSpecificSettings Identifier:15/06/2018:05:33
+
+CSM 5
+5.1 SXP Online:Not Available
+5.2 External Clock Status:Not Connected
+5.3 Last External Clock Update:HH:MM:SS
+
+CSM 6
+6.1 Scrambled:No
+6.2 VSecure ID:800000000000000F4DA9
+6.3 RoomID:00002
+6.4 VSecure generic error:No Error
+6.5 VSecure shared key status:Absent
+6.6 VSecure odd key status:Absent
+6.7 VSecure even key status:Absent
+6.8 VSecure factory key status:Present
+6.9 Content Rating:No
+6.10 Rating level:None
+6.11 Pin code:None
+
+CSM 7
+7.1 Centre frequency:330000
+7.2 QAM modulation:64-QAM
+7.3 Symbol rate:0
+7.4 Original Network ID:9018
+7.5 Network ID:0
+7.6 Transport stream ID:134
+7.7 Service ID:1
+7.8 Hierarchical modulation:0
+7.9 Selected Video PID:1001
+7.10 Selected main audio PID:1002
+7.11 RF Signal Strength:100
+7.12 BER:0
+
+CSM 8
+8.1 Last USB Upgrade Session Start Time:15/06/2018 05:42
+8.2 Last USB Upgrade Session End Time:15/06/2018 05:43
+8.3 USB Upgrade Status:Successful
+8.4 Last RF Upgrade Session Start Time:20/06/2018 04:00
+8.5 Last RF Upgrade Session End Time:20/06/2018 04:10
+8.6 RF Upgrade Status:Failed
+8.7 Last IP Upgrade Session Start Time:15/06/2018 05:39
+8.8 Last IP Upgrade Session End Time:15/06/2018 05:40
+8.9 IP Upgrade Status:Successful
+
+CSM 9
+9.1 Current MYCHOICE:OFF
+9.2 MYCHOICE: D1:Pack1='0000' Pack2='0000'
+9.3 MYCHOICE: D3:Pack1='0000' Pack2='0000'
+9.4 MYCHOICE: D7:Pack1='0000' Pack2='0000'
+9.5 MYCHOICE: D14:Pack1='0000' Pack2='0000'
+9.6 MYCHOICE: D21:Pack1='0000' Pack2='0000'
+9.7 MYCHOICE: D24:Pack1='0000' Pack2='0000'
+9.8 MYCHOICE: D28:Pack1='0000' Pack2='0000'
+

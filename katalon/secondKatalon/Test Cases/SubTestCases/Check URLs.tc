@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Check URLs</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b0e76da2-9e1f-45f2-aec0-7af59ccaa09a</testCaseGuid>
+   <variable>
+      <defaultValue>[:]</defaultValue>
+      <description></description>
+      <id>48206131-cd23-4ed5-ad54-579599da3e67</id>
+      <masked>false</masked>
+      <name>cloneItemUrlMap</name>
+   </variable>
+   <variable>
+      <defaultValue>[]</defaultValue>
+      <description></description>
+      <id>af6f1932-ead7-41cf-b840-9fd84704e267</id>
+      <masked>false</masked>
+      <name>expectedCloneItemWithUrlList</name>
+   </variable>
+</TestCaseEntity>

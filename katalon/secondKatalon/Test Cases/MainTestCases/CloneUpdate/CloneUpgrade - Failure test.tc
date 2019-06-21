@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test were the channellist clone item identifier returned to CMND will be the old value. 
+Script checks: if the channellist clone item URL is resend 2 more times.
+Clone identifier color in the TVList is correct.
+Values in the More info dialog are correct.
+Colors in the More info dialog are correct.</description>
+   <name>CloneUpgrade - Failure test</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fe6281bf-d7a7-4681-a564-8e41ef3ff123</testCaseGuid>
+</TestCaseEntity>

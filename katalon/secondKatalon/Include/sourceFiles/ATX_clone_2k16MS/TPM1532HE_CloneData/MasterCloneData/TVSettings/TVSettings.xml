@@ -1,0 +1,1029 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TVSettings>
+    <SchemaVersion MajorVerNo="1" MinorVerNo="0"/>
+    <item>
+        <Name>Upgrade and Clone.Auto Upgrade Settings.Auto Upgrade and Clone</Name>
+        <Value>On</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Upgrade and Clone.Auto Upgrade Settings.Auto Clone on Wakeup</Name>
+        <Value>Off</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Upgrade and Clone.RF Upgrade Settings.Frequency</Name>
+        <Value>498</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Upgrade and Clone.RF Upgrade Settings.Scan Mode</Name>
+        <Value>Legacy</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Switch on settings.Channel Settings.Switch On Channel Filter</Name>
+        <Value>All Channels</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Switch on settings.Channel Settings.Switch On Channel</Name>
+        <Value>1</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Switch on settings.Feature Settings.Switch On Feature</Name>
+        <Value>Dashboard</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Switch on settings.Feature Settings.Apps</Name>
+        <Value></Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Switch on settings.Sound Settings.Volume.TV Speakers</Name>
+        <Value>6</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Switch on settings.Sound Settings.Volume.Headphone/Bathroom speakers</Name>
+        <Value>15</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Switch on settings.Sound Settings.Volume.Bluetooth</Name>
+        <Value>15</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Switch on settings.Sound Settings.Sound Style</Name>
+        <Value>Original</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Switch on settings.Sound Settings.Bass</Name>
+        <Value>0</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Switch on settings.Sound Settings.Treble</Name>
+        <Value>0</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Switch on settings.Picture Settings.Picture Format</Name>
+        <Value>Fill Screen</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Switch on settings.Picture Settings.Picture Format Overscan</Name>
+        <Value>On</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Switch on settings.Picture Settings.Picture Style</Name>
+        <Value>Standard</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Switch on settings.Picture Settings.Colour</Name>
+        <Value>56</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Switch on settings.Picture Settings.Contrast</Name>
+        <Value>60</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Switch on settings.Picture Settings.Sharpness</Name>
+        <Value>4</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Switch on settings.Subtitles</Name>
+        <Value>Off</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Switch on settings.Ambilight Settings.Ambilight Style</Name>
+        <Value>Follow Video</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Switch on settings.Region And Language Settings.Guest.Country</Name>
+        <Value>Ireland</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Switch on settings.Region And Language Settings.Languages.Menu Language</Name>
+        <Value>English</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Switch on settings.ECO Settings.Philips Logo Brightness</Name>
+        <Value>Minimum</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Switch on settings.Content Rating.Rating Level</Name>
+        <Value>None</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Switch on settings.Personalise.Message Display</Name>
+        <Value>Show Message</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Dashboard.Mode</Name>
+        <Value>Default</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Dashboard.Default Settings</Name>
+        <Value>Side Dashboard</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Dashboard.Custom Settings.Source</Name>
+        <Value>Server</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Dashboard.Custom Settings.Server Settings.Server URL</Name>
+        <Value>http://192.168.103.238:8082/cdbscrpt</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Dashboard.Custom Settings.Server Settings.Fallback</Name>
+        <Value>Off</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Dashboard.Reload Dashboard After Network Restore</Name>
+        <Value>Yes</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Features.Apps.Mode</Name>
+        <Value>Local Apps</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Features.Apps.SmartTV Apps Settings.SmartTV Mode</Name>
+        <Value>Default</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Features.Apps.SmartTV Apps Settings.Profile Settings.Appcontrol ID</Name>
+        <Value></Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Features.Apps.SmartTV Apps Settings.Profile Settings.Profile Name</Name>
+        <Value></Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Features.Apps.SmartTV Apps Settings.Profile Settings.Location ID</Name>
+        <Value></Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Features.Weather App</Name>
+        <Value>On</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Features.PMS.Default Dashboard PMS</Name>
+        <Value>Off</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Features.ThemeTV.Enable</Name>
+        <Value>No</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Features.SmartInfo.Mode</Name>
+        <Value>Off</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Features.SmartInfo.Browser settings.Source</Name>
+        <Value>Local</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Features.SmartInfo.Browser settings.Server URL</Name>
+        <Value></Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Features.MyChoice.Mode</Name>
+        <Value>Off</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Features.MyChoice.Request for PIN</Name>
+        <Value>No</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Features.Content Rating.Enable</Name>
+        <Value>No</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Features.Content Rating.SetCode</Name>
+        <Value>null</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Features.Clock.Display Clock Always in Standby</Name>
+        <Value>No</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Features.Clock.Display Clock on Radio Channel</Name>
+        <Value>No</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Features.Clock.External Clock.External Clock</Name>
+        <Value>Off</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Features.Clock.External Clock.Brightness at Low light</Name>
+        <Value>0</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Features.Clock.External Clock.Brightness at Intense Light</Name>
+        <Value>5</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Features.Clock.External Clock.Light sensor Sensitivity</Name>
+        <Value>3</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Features.Welcome Logo</Name>
+        <Value>Off</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Features.USB Auto Play</Name>
+        <Value>Off</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Features.USB Media Browser.Enable</Name>
+        <Value>No</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Features.USB Media Browser.USB break-in</Name>
+        <Value>On</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Features.Multi Remote Control</Name>
+        <Value>Off</Value>
+        <CloneIn>No</CloneIn>
+    </item>
+    <item>
+        <Name>Features.Scheduler.Enable</Name>
+        <Value>No</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Channels.Show Channels</Name>
+        <Value>Yes</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Channels.Media Channels</Name>
+        <Value>Off</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Channels.RF Installation Settings.Install Analog</Name>
+        <Value>Off</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Channels.RF Installation Settings.Install DVB-T/T2</Name>
+        <Value>On</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Channels.RF Installation Settings.Install DVB-C/C2</Name>
+        <Value>Off</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Channels.RF Installation Settings.LCN</Name>
+        <Value>On</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Channels.RF Installation Settings.Install Scrambled Channels</Name>
+        <Value>Yes</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Channels.RF Installation Settings.Automatic Channel Update</Name>
+        <Value>Off</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Channels.RF Installation Settings.Channel Update Message</Name>
+        <Value>Off</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Channels.RF Channel Installation.Search for Channels.Country</Name>
+        <Value>UK</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Channels.RF Channel Installation.Search for Channels.Cable Operator</Name>
+        <Value>Other</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Channels.Channel Settings.EPG.Enable</Name>
+        <Value>Yes</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Channels.Channel Settings.EPG.Source</Name>
+        <Value>null</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Channels.Channel Settings.Enable Subtitles</Name>
+        <Value>Yes</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Channels.Channel Settings.Enable Teletext</Name>
+        <Value>Yes</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Channels.Channel Settings.Enable MHEG</Name>
+        <Value>Yes</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Channels.Channel Settings.Enable HbbTV</Name>
+        <Value>On</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Channels.Channel Settings.Enable CI/CI+</Name>
+        <Value>Yes</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Channels.Channel Settings.Enable Channel Logos</Name>
+        <Value>Yes</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Channels.Channel Settings.Display Scrambled Channel Banner</Name>
+        <Value>Yes</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Channels.Channel Settings.IGMP Version for Multicast IP Channels</Name>
+        <Value>2</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Sources.Advanced.Enable Sources.HDMI 1</Name>
+        <Value>Yes</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Sources.Advanced.Enable Sources.HDMI 2</Name>
+        <Value>Yes</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Sources.Advanced.Enable Sources.HDMI 3</Name>
+        <Value>Yes</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Sources.Advanced.Enable Sources.HDMI 4</Name>
+        <Value>Yes</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Sources.Advanced.Enable Sources.SCART</Name>
+        <Value>Yes</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Sources.Advanced.Enable Sources.Y Pb Pr</Name>
+        <Value>Yes</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Sources.Advanced.AutoSCART</Name>
+        <Value>Off</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Sources.Advanced.EasyLink.EasyLink</Name>
+        <Value>On</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Sources.Advanced.EasyLink.EasyLink Break-in</Name>
+        <Value>On</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Sources.Advanced.EasyLink.EasyLink Remote Control</Name>
+        <Value>On</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Sources.Advanced.EasyLink.EasyLink CDB behaviour</Name>
+        <Value>null</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Date and Time.Source</Name>
+        <Value>Automatic Channels</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Date and Time.Source Channel</Name>
+        <Value>1</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Date and Time.NTP Settings.NTP Source</Name>
+        <Value>Default</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Date and Time.NTP Settings.Custom NTP Server URL</Name>
+        <Value></Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Date and Time.Time Zone Settings.Time Zone Country</Name>
+        <Value>UK</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Date and Time.Time Zone Settings.Time Zone Region</Name>
+        <Value>London</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Date and Time.Automatic Daylight Savings</Name>
+        <Value>On</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Date and Time.Time offset</Name>
+        <Value>0</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Date and Time.Clock Format</Name>
+        <Value>24 hour</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Wireless and Networks.Settings.Network Type</Name>
+        <Value>Wired</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Wireless and Networks.Settings.Network Configuration</Name>
+        <Value>DHCP</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Wireless and Networks.Settings.Static IP Configuration.IP Address</Name>
+        <Value>192.168.103.110</Value>
+        <CloneIn>No</CloneIn>
+    </item>
+    <item>
+        <Name>Wireless and Networks.Settings.Static IP Configuration.Netmask</Name>
+        <Value>255.255.255.0</Value>
+        <CloneIn>No</CloneIn>
+    </item>
+    <item>
+        <Name>Wireless and Networks.Settings.Static IP Configuration.Gateway</Name>
+        <Value>192.168.103.1</Value>
+        <CloneIn>No</CloneIn>
+    </item>
+    <item>
+        <Name>Wireless and Networks.Settings.Static IP Configuration.DNS 1</Name>
+        <Value>8.8.8.8</Value>
+        <CloneIn>No</CloneIn>
+    </item>
+    <item>
+        <Name>Wireless and Networks.Settings.Static IP Configuration.DNS 2</Name>
+        <Value>0.0.0.0</Value>
+        <CloneIn>No</CloneIn>
+    </item>
+    <item>
+        <Name>Wireless and Networks.Settings.Wifi Settings.Wifi SSID</Name>
+        <Value></Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Wireless and Networks.Settings.Wifi Settings.Security Method</Name>
+        <Value></Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Wireless and Networks.Settings.Wifi Settings.Password</Name>
+        <Value></Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Wireless and Networks.Settings.Wake on LAN (WoL)</Name>
+        <Value>Off</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Wireless and Networks.Settings.Wake on Wi-Fi (WoWLAN)</Name>
+        <Value>On</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Wireless and Networks.Settings.Wi-Fi Direct Cross Connection</Name>
+        <Value>On</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Wireless and Networks.Settings.Forget Wi-Fi Network</Name>
+        <Value>null</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Wireless and Networks.Features.Philips TV Remote App.Enable</Name>
+        <Value>No</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Wireless and Networks.Features.Philips TV Remote App.XTV</Name>
+        <Value>Off</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Wireless and Networks.Features.Philips TV Remote App.Digital Media Renderer - DMR</Name>
+        <Value>On</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Wireless and Networks.Features.Wi-Fi Miracast.Enable</Name>
+        <Value>On</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Wireless and Networks.Features.Wi-fi Hotspot</Name>
+        <Value>Yes</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Wireless and Networks.Features.Show Network Lost Message</Name>
+        <Value>No</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Wireless and Networks.Features.Internet App</Name>
+        <Value>Yes</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Wireless and Networks.Control TV Over IP.WebServices.Server URL</Name>
+        <Value>http://192.168.103.2:8080/webservices.jsp</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Wireless and Networks.Control TV Over IP.WebServices.TVDiscoveryService</Name>
+        <Value>On</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Wireless and Networks.Control TV Over IP.WebServices.ProfessionalSettingsService</Name>
+        <Value>On</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Wireless and Networks.Control TV Over IP.WebServices.IPUpgradeService</Name>
+        <Value>On</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Wireless and Networks.Control TV Over IP.WebServices.PMSService</Name>
+        <Value>On</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Wireless and Networks.Control TV Over IP.WebListeningServices.PowerService</Name>
+        <Value>On</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Wireless and Networks.Control TV Over IP.WebListeningServices.TVDiscoveryService</Name>
+        <Value>On</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Wireless and Networks.Control TV Over IP.WebListeningServices.IPUpgradeService</Name>
+        <Value>On</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Wireless and Networks.Control TV Over IP.WebListeningServices.PMSService</Name>
+        <Value>On</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Advanced.Professional Mode</Name>
+        <Value>On</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Advanced.Identification Settings.RoomID</Name>
+        <Value>00002</Value>
+        <CloneIn>No</CloneIn>
+    </item>
+    <item>
+        <Name>Advanced.Identification Settings.Premises Geonames ID</Name>
+        <Value>7778676</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Advanced.Identification Settings.Premises Name</Name>
+        <Value>ATX clone3</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Advanced.Power.Power On</Name>
+        <Value>Standby</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Advanced.Power.Standby Mode</Name>
+        <Value>Fast</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Advanced.Power.Reboot Everyday</Name>
+        <Value>On</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Advanced.Power.Auto Standby</Name>
+        <Value>On</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Advanced.Input Control.Local Keyboard Control Lock</Name>
+        <Value>Off</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Advanced.Input Control.Remote Control.Lock</Name>
+        <Value>Off</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Advanced.Input Control.Remote Control.WatchTV RC Key Mapping</Name>
+        <Value>Channels</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Advanced.Input Control.USB Keyboard Settings.Primary Keyboard</Name>
+        <Value>null</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Advanced.Input Control.USB Keyboard Settings.Secondary Keyboard</Name>
+        <Value>null</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Advanced.Security.High Security</Name>
+        <Value>Off</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Advanced.Security.VSecure.Vsecure Keys Via RF</Name>
+        <Value>On</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Advanced.Security.VSecure.RF Program Settings.Frequency</Name>
+        <Value>362</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Advanced.Security.VSecure.RF Program Settings.Medium</Name>
+        <Value>Antenna</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Advanced.Security.VSecure.RF Program Settings.Symbol Rate</Name>
+        <Value>6.9</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Advanced.Serial Xpress</Name>
+        <Value>38400</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Advanced.UI.Display OSD</Name>
+        <Value>Yes</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Advanced.System Settings.Clear User Data</Name>
+        <Value>Standby and PowerOn</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Advanced.System Settings.WLSViaCDB</Name>
+        <Value>Off</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Advanced.System Settings.Render CDB Acc</Name>
+        <Value>On</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Advanced.System Settings.IPTV Offset</Name>
+        <Value>0</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Advanced.Diagnostics.Enable</Name>
+        <Value>No</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Advanced.Diagnostics.Destination</Name>
+        <Value>Internal</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Advanced.Diagnostics.Server URL</Name>
+        <Value>SmartInstall Server URL</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Advanced.Diagnostics.Frequency</Name>
+        <Value>30</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Advanced.Diagnostics.ADB</Name>
+        <Value>Off</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Picture.Advanced.Game or Computer</Name>
+        <Value>Off</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Picture.Advanced.Colour.Colour Enhancement</Name>
+        <Value>Medium</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Picture.Advanced.Colour.Colour Temperature</Name>
+        <Value>Custom</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Picture.Advanced.Colour.Custom Colour Temperature.Red - WP</Name>
+        <Value>127</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Picture.Advanced.Colour.Custom Colour Temperature.Green - WP</Name>
+        <Value>119</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Picture.Advanced.Colour.Custom Colour Temperature.Blue - WP</Name>
+        <Value>111</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Picture.Advanced.Colour.Custom Colour Temperature.Red - BL</Name>
+        <Value>0</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Picture.Advanced.Colour.Custom Colour Temperature.Green - BL</Name>
+        <Value>0</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Picture.Advanced.Colour.Custom Colour Temperature.Blue - BL</Name>
+        <Value>0</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Picture.Advanced.Contrast.Contrast Mode</Name>
+        <Value>Best Power</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Picture.Advanced.Contrast.Dynamic Contrast</Name>
+        <Value>Minimum</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Picture.Advanced.Contrast.Brightness</Name>
+        <Value>100</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Picture.Advanced.Contrast.Video Contrast</Name>
+        <Value>100</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Picture.Advanced.Contrast.Gamma</Name>
+        <Value>0</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Picture.Advanced.Sharpness.Super Resolution</Name>
+        <Value>On</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Picture.Advanced.Sharpness.Noise Reduction</Name>
+        <Value>Medium</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Picture.Advanced.Sharpness.MPEG Artefact Reduction</Name>
+        <Value>Minimum</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Picture.Advanced.Motion.</Name>
+        <Value>Medium</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Picture.Advanced.Motion.Clear LCD</Name>
+        <Value>On</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Sound.Maximum Volume</Name>
+        <Value>30</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Sound.Sound Management.TV Speakers</Name>
+        <Value>EasyLink Autostart</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Sound.Sound Management.Headphone/Bathroom speakers</Name>
+        <Value>Off</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Sound.Sound Management.Bluetooth Audio</Name>
+        <Value>On</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Sound.TV Placement</Name>
+        <Value>On a TV Stand</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Sound.Advanced.Surround Mode</Name>
+        <Value>Stereo</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Sound.Advanced.Auto Volume Levelling</Name>
+        <Value>Off</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Sound.Advanced.Clear Sound</Name>
+        <Value>On</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Sound.Advanced.Audio Out Format</Name>
+        <Value>Stereo (uncompressed)</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Sound.Advanced.Audio Out Levelling</Name>
+        <Value>More</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Sound.Advanced.Audio Out Delay</Name>
+        <Value>On</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Sound.Advanced.Audio Out Offset</Name>
+        <Value>0</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Ambilight.Ambilight+hue.</Name>
+        <Value></Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Ambilight.Ambilight+hue.Immersion</Name>
+        <Value>8</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Region and Language.Languages.Primary Audio</Name>
+        <Value>English</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Region and Language.Languages.Secondary Audio</Name>
+        <Value>English</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Region and Language.Languages.Primary Subtitles</Name>
+        <Value>English</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Region and Language.Languages.Secondary Subtitles</Name>
+        <Value>English</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Region and Language.Languages.Primary Text</Name>
+        <Value>English</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Region and Language.Languages.Secondary Text</Name>
+        <Value>English</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Accessibility.Universal Access</Name>
+        <Value>Off</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Accessibility.Hearing Impaired</Name>
+        <Value>Off</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Accessibility.Audio Description.Audio Description</Name>
+        <Value>Off</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Accessibility.Audio Description.Mixed Volume</Name>
+        <Value>59</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Accessibility.Audio Description.Audio Effects</Name>
+        <Value>On</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+    <item>
+        <Name>Accessibility.Audio Description.Speech</Name>
+        <Value>Descriptive</Value>
+        <CloneIn>Yes</CloneIn>
+    </item>
+</TVSettings>

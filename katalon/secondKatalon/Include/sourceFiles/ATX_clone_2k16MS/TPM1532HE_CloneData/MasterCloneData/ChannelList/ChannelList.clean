@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TvContents>
+  <SchemaVersion MajorVerNo="2" MinorVerNo="0" />
+
+  <ChannelMap>
+    <Channel>
+      <Broadcast ONID="9018" TSID="134" bandwidth="8MHz"
+      frequency="330000" medium="dvbt" modulation="64"
+      serviceID="1" servicetype="TV" symbolrate="0"
+      system="west" />
+
+      <Setup FreePKG="1" PayPKG1="0" PayPKG2="0" TTV1="0" TTV10="0"
+      TTV2="0" TTV3="0" TTV4="0" TTV5="0" TTV6="0" TTV7="0"
+      TTV8="0" TTV9="0" blank="0" name="BBC One HD"
+      presetnumber="1" skip="0" />
+    </Channel>
+
+    <Channel>
+      <Broadcast ONID="9018" TSID="135" bandwidth="8MHz"
+      frequency="338000" medium="dvbt" modulation="64"
+      serviceID="2" servicetype="TV" symbolrate="0"
+      system="west" />
+
+      <Setup FreePKG="1" PayPKG1="0" PayPKG2="0" TTV1="0" TTV10="0"
+      TTV2="0" TTV3="0" TTV4="0" TTV5="0" TTV6="0" TTV7="0"
+      TTV8="0" TTV9="0" blank="0" name="BBC One HD"
+      presetnumber="2" skip="0" />
+    </Channel>
+
+    <Channel>
+      <Broadcast ONID="9018" TSID="136" bandwidth="8MHz"
+      frequency="346000" medium="dvbt" modulation="64"
+      serviceID="3" servicetype="TV" symbolrate="0"
+      system="west" />
+
+      <Setup FreePKG="1" PayPKG1="0" PayPKG2="0" TTV1="0" TTV10="0"
+      TTV2="0" TTV3="0" TTV4="0" TTV5="0" TTV6="0" TTV7="0"
+      TTV8="0" TTV9="0" blank="0" name="MUTV HD" presetnumber="3"
+      skip="0" />
+    </Channel>
+
+    <Channel>
+      <Broadcast ONID="9018" TSID="137" bandwidth="8MHz"
+      frequency="354000" medium="dvbt" modulation="64"
+      serviceID="4" servicetype="TV" symbolrate="0"
+      system="west" />
+
+      <Setup FreePKG="1" PayPKG1="0" PayPKG2="0" TTV1="0" TTV10="0"
+      TTV2="0" TTV3="0" TTV4="0" TTV5="0" TTV6="0" TTV7="0"
+      TTV8="0" TTV9="0" blank="0" name="DMAX" presetnumber="4"
+      skip="0" />
+    </Channel>
+
+    <Channel>
+      <Broadcast ONID="9018" TSID="138" bandwidth="8MHz"
+      frequency="362000" medium="dvbt" modulation="64"
+      serviceID="6" servicetype="TV" symbolrate="0"
+      system="west" />
+
+      <Setup FreePKG="1" PayPKG1="0" PayPKG2="0" TTV1="0" TTV10="0"
+      TTV2="0" TTV3="0" TTV4="0" TTV5="0" TTV6="0" TTV7="0"
+      TTV8="0" TTV9="0" blank="0" name="BBC Two HD"
+      presetnumber="6" skip="0" />
+    </Channel>
+
+    <Channel>
+      <Multicast url="multicast://239.45.45.1:12345/0/0/0/VBR" />
+
+      <Setup FreePKG="1" PayPKG1="0" PayPKG2="0" TTV1="0" TTV10="0"
+      TTV2="0" TTV3="0" TTV4="0" TTV5="0" TTV6="0" TTV7="0"
+      TTV8="0" TTV9="0" blank="0" name="BBC One HD IP"
+      presetnumber="7" skip="0" />
+    </Channel>
+
+    <Channel>
+      <Multicast url="multicast://239.45.45.2:12345/0/0/0/VBR" />
+
+      <Setup FreePKG="1" PayPKG1="0" PayPKG2="0" TTV1="0" TTV10="0"
+      TTV2="0" TTV3="0" TTV4="0" TTV5="0" TTV6="0" TTV7="0"
+      TTV8="0" TTV9="0" blank="0" name="BBC One HD IP ENC"
+      presetnumber="8" skip="0" />
+    </Channel>
+
+    <Channel>
+      <Multicast url="multicast://239.45.45.4:12345/0/0/0/VBR" />
+
+      <Setup FreePKG="1" PayPKG1="0" PayPKG2="0" TTV1="0" TTV10="0"
+      TTV2="0" TTV3="0" TTV4="0" TTV5="0" TTV6="0" TTV7="0"
+      TTV8="0" TTV9="0" blank="0" name="BBC Two HD IP ENC"
+      presetnumber="9" skip="0" />
+    </Channel>
+
+    <Channel>
+      <Multicast url="multicast://239.45.45.5:12345/0/0/0/VBR" />
+
+      <Setup FreePKG="1" PayPKG1="0" PayPKG2="0" TTV1="0" TTV10="0"
+      TTV2="0" TTV3="0" TTV4="0" TTV5="0" TTV6="0" TTV7="0"
+      TTV8="0" TTV9="0" blank="0" name="Discovery HD IP ENC"
+      presetnumber="10" skip="0" logo="" />
+    </Channel>
+
+    <Channel>
+      <Multicast url="multicast://239.45.45.10:12345/0/0/0/VBR" />
+
+      <Setup FreePKG="1" PayPKG1="0" PayPKG2="0" TTV1="0" TTV10="0"
+      TTV2="0" TTV3="0" TTV4="0" TTV5="0" TTV6="0" TTV7="0"
+      TTV8="0" TTV9="0" blank="0" name="UDH Demo IP ENC"
+      presetnumber="20" skip="0" />
+    </Channel>
+
+    <Channel>
+      <Source type="HDMI1" />
+
+      <Setup FreePKG="1" PayPKG1="0" PayPKG2="0" TTV1="0" TTV10="0"
+      TTV2="0" TTV3="0" TTV4="0" TTV5="0" TTV6="0" TTV7="0"
+      TTV8="0" TTV9="0" blank="0" name="HDMI1" presetnumber="100"
+      skip="0" />
+    </Channel>
+
+    <Channel>
+      <Source type="HDMI2" />
+
+      <Setup FreePKG="1" PayPKG1="0" PayPKG2="0" TTV1="0" TTV10="0"
+      TTV2="0" TTV3="0" TTV4="0" TTV5="0" TTV6="0" TTV7="0"
+      TTV8="0" TTV9="0" blank="0" name="HDMI2" presetnumber="101"
+      skip="0" />
+    </Channel>
+
+    <Channel>
+      <Source type="HDMI3" />
+
+      <Setup FreePKG="1" PayPKG1="0" PayPKG2="0" TTV1="0" TTV10="0"
+      TTV2="0" TTV3="0" TTV4="0" TTV5="0" TTV6="0" TTV7="0"
+      TTV8="0" TTV9="0" blank="0" name="HDMI3" presetnumber="102"
+      skip="0" />
+    </Channel>
+
+    <Channel>
+      <Source type="HDMI4" />
+
+      <Setup FreePKG="1" PayPKG1="0" PayPKG2="0" TTV1="0" TTV10="0"
+      TTV2="0" TTV3="0" TTV4="0" TTV5="0" TTV6="0" TTV7="0"
+      TTV8="0" TTV9="0" blank="0" name="HDMI4" presetnumber="103"
+      skip="0" />
+    </Channel>
+
+    <Channel>
+      <Source type="YPBPR" />
+
+      <Setup FreePKG="1" PayPKG1="0" PayPKG2="0" TTV1="0" TTV10="0"
+      TTV2="0" TTV3="0" TTV4="0" TTV5="0" TTV6="0" TTV7="0"
+      TTV8="0" TTV9="0" blank="0" name="YPBPR" presetnumber="104"
+      skip="0" />
+    </Channel>
+
+    <Channel>
+      <Source type="SCART" />
+
+      <Setup FreePKG="1" PayPKG1="0" PayPKG2="0" TTV1="0" TTV10="0"
+      TTV2="0" TTV3="0" TTV4="0" TTV5="0" TTV6="0" TTV7="0"
+      TTV8="0" TTV9="0" blank="0" name="SCART" presetnumber="105"
+      skip="0" />
+    </Channel>
+  </ChannelMap>
+
+  <ApplicationMap />
+
+  <ThemeTV />
+</TvContents>
+

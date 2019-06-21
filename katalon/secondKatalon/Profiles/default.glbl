@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>IP address CMND server for web services API testing</description>
+      <initValue>'localhost'</initValue>
+      <name>ipAddressCmnd</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'8080'</initValue>
+      <name>portApacheTomcat</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'SmartInstall/webservices.jsp'</initValue>
+      <name>webservicesPath</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'rgba(255, 191, 0, 1)'</initValue>
+      <name>orangeCloneIdentifierColor</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'rgba(0, 0, 255, 1)'</initValue>
+      <name>blueCloneIdentifierColor</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'rgba(255, 0, 0, 1)'</initValue>
+      <name>redCloneIdentifierColor</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'rgba(0, 0, 0, 1)'</initValue>
+      <name>blackCloneIdentifierColor</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'rgba(1, 223, 1, 1)'</initValue>
+      <name>greenCloneIdentifierColor</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'rgba(0, 0, 0, 0)'</initValue>
+      <name>whiteCellColor</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'rgba(255, 0, 0, 1)'</initValue>
+      <name>redCellColor</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'rgba(0, 128, 0, 1)'</initValue>
+      <name>greenMoreInfoCloneIdentifierColor</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'rgba(0, 0, 0, 1)'</initValue>
+      <name>whiteMoreInfoCloneIdentifierColor</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'rgba(0, 0, 0, 1)'</initValue>
+      <name>blackMoreInfoCloneIdentifierColor</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/Include/sourceFiles/FullUpgrade_TPM1532HE_5.249.5.229_DEV.upg'</initValue>
+      <name>FirmwarePath2k16MS</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/Include/sourceFiles/ATX_clone_2k16MS.zip'</initValue>
+      <name>ClonePath2k16MS</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/TempDownloadFiles'</initValue>
+      <name>TempDownloadPath</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Unknown'</initValue>
+      <name>noneCloneIdentifier</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/Include/sourceFiles/HolidayInn_SmartInfo.zip'</initValue>
+      <name>smartInfoPath</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'rgba(51, 51, 51, 1)'</initValue>
+      <name>emptyMoreInfoCloneIdentifierColor</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<RoomSpecificSettings>
+  <SchemaVersion MajorVerNo="1" MinorVerNo="0" />
+  <TV>
+    <SerialNumber>01234567891234</SerialNumber>
+    <item>
+      <Name>Advanced.Identification Settings.RoomID</Name>
+      <Value>00002</Value>
+    </item>
+    <item>
+      <Name>Features.Multi Remote Control</Name>
+      <Value>off</Value>
+    </item>
+  </TV>
+</RoomSpecificSettings>

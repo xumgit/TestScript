@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>More Info dialog content</name>
+   <tag></tag>
+   <elementGuidId>aeec2406-e5f2-45ed-8a05-729f2e65a990</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='TV_info']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>TV_info</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>col-md-12</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>TV Name : TV 27 Sep 2018 10:47:35ModelNumber : 32HFL5011T/12SerialNumber : FZ1A1614060553RoomID : 17MACAddress : 1C:5A:6B:B5:C5:7FIPAddress : 192.168.103.159VSecureTVID : 800000000000000F4F91PowerStatus : StandbyTVUniqueID : FZ1A16140605531C5A6BB5C57FCurrent Firmware Name : NoneCurrent TV Settings Identifier : NoneCurrent TVChannel List Identifier : NoneCurrent Welcome Logo Identifier : NoneCurrent Smartinfo Images Identifier : NoneCurrent SmartInfo Pages Identifier : NoneCurrent Local Custom Dashboard Identifier : NoneCurrent Android Apps : NoneCurrent Media channels : NoneCurrent Room Specific Settings : NoneCurrent HTV Cfg : Current Script : NoneType : 2016 MSCreatedDate : 2018/09/27-10:47:35Lastonline : 2018/09/27-10:47:35</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;TV_info&quot;)</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <value>//div[@id='TV_info']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <value>//div[@id='infoModal_ID']/div/div/div/div[2]/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='More Info'])[1]/following::div[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[9]/following::div[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <value>//div[3]/div[7]/div/div/div/div[2]/div</value>
+   </webElementXpaths>
+</WebElementEntity>
