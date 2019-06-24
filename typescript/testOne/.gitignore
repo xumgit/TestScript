@@ -1,0 +1,6 @@
+
+# python project
+node_modules/*
+.idea
+logs.txt
+*.avi

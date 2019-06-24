@@ -2,6 +2,8 @@
 ## Thanks for you coming, Bst wishes for you.
 
 # install nodejs environment, then install typescript
+## npm install
+    install node js dependence environment
 ## npm install -g typescript
     install typescript with global
 ## npm upgrade -g typescript

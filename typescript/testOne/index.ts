@@ -16,6 +16,7 @@ let num: number = 11;
 let str: string = "testStr";
 let flag: boolean = true;
 let arr: number[] = [1, 2, 3, 4, 5];
+let arr2: number[][] = [[1, 2, 3], [4, 5, 6]];
 enum Color {red, green, blue};
 let c: Color = Color.green;
 
@@ -98,6 +99,66 @@ var foo1 = (x:number)=> {
     console.log(x);  
 } 
 foo1(100);
+
+let s1:string = "a1";
+let s2:string = "a2";
+let s3 = s1.concat(s2);
+console.log("s3:" + s3);
+
+var sites:string[] = new Array("a", "b", "c");
+console.log("res:" + typeof sites);
+if ((typeof sites) == 'object') {
+    var len = sites.length;
+    for (let i = 0; i < len; i++) {
+        console.log(i + ":" + sites[i]);
+    }
+}
+
+interface IPerson { 
+    firstName:string, 
+    lastName:string, 
+    sayHi: ()=>string 
+}
+
+var customer:IPerson = {
+    firstName: "Tome",
+    lastName: "Harden",
+    sayHi: ():string => {return "hello"}
+};
+console.log("customer:" + customer.sayHi());
+
+class Person1 {
+    name:string;
+    age:number;
+
+    constructor(name:string, age:number) {
+        this.name = name;
+        this.age = age;
+    }
+
+    print():void {
+        console.log(this.name + "|" + this.age);
+    }
+
+    getName():string {
+        return this.name;
+    }
+
+    setName(name:string):void {
+        this.name = name;
+    }
+}
+
+var p = new Person1("abc", 15);
+p.print();
+p.setName("def");
+p.print();
+
+var person = require("./Person");
+var p2 = new person.Person("a", 11, "2000", "11", "10");
+p2.print();
+console.log(p2.getName() + "-" + p2.getAge());
+p2.printStr();
 // // 1. Set
 // let set1 = new Set(['red', 'green', 'blue']);
 

@@ -1,0 +1,14 @@
+{
+  "name": "testone",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "xum",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^12.0.10"
+  }
+}

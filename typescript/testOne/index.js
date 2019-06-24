@@ -12,6 +12,7 @@ let num = 11;
 let str = "testStr";
 let flag = true;
 let arr = [1, 2, 3, 4, 5];
+let arr2 = [[1, 2, 3], [4, 5, 6]];
 var Color;
 (function (Color) {
     Color[Color["red"] = 0] = "red";
@@ -94,6 +95,48 @@ var foo1 = (x) => {
     console.log(x);
 };
 foo1(100);
+let s1 = "a1";
+let s2 = "a2";
+let s3 = s1.concat(s2);
+console.log("s3:" + s3);
+var sites = new Array("a", "b", "c");
+console.log("res:" + typeof sites);
+if ((typeof sites) == 'object') {
+    var len = sites.length;
+    for (let i = 0; i < len; i++) {
+        console.log(i + ":" + sites[i]);
+    }
+}
+var customer = {
+    firstName: "Tome",
+    lastName: "Harden",
+    sayHi: () => { return "hello"; }
+};
+console.log("customer:" + customer.sayHi());
+class Person1 {
+    constructor(name, age) {
+        this.name = name;
+        this.age = age;
+    }
+    print() {
+        console.log(this.name + "|" + this.age);
+    }
+    getName() {
+        return this.name;
+    }
+    setName(name) {
+        this.name = name;
+    }
+}
+var p = new Person1("abc", 15);
+p.print();
+p.setName("def");
+p.print();
+var person = require("./Person");
+var p2 = new person.Person("a", 11, "2000", "11", "10");
+p2.print();
+console.log(p2.getName() + "-" + p2.getAge());
+p2.printStr();
 // // 1. Set
 // let set1 = new Set(['red', 'green', 'blue']);
 // for (let item of set1.keys()) {
