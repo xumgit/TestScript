@@ -6,6 +6,11 @@ import router from './router'
 
 Vue.config.productionTip = false
 
+Vue.component('runoob', {
+  props: ['message'],
+  template: '<h1>Customer-{{message}}</h1>'
+})
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

@@ -26,6 +26,46 @@
       kilometers: <input type = "text" v-model = "kilometers" /> <br />
       meters: <input type = "text" v-model = "meters" />
     </div>
+    <div>
+        <table>
+    <tr>
+        <th>Number</th>
+        <th>Sale Name</th>
+        <th>Sale Price</th>
+        <th>Purchase Number</th>
+        <th>Action</th>
+    </tr>
+    <tr v-for="iphone in Ip_Json" v-bind:key="iphone.id">
+        <td>{{ iphone.id }}</td>
+        <td>{{ iphone.name }}</td>
+        <td>{{ iphone.price }}</td>
+        <td>
+        <button v-bind:disabled="iphone.count === 0" v-on:click="iphone.count-=1">-</button>
+        {{ iphone.count }}
+        <button v-on:click="iphone.count+=1">+</button>
+        </td>
+        <td>
+        <button v-on:click="iphone.count=0">移除</button>
+        </td>
+    </tr>
+    </table>
+    总价：${{totalPrice()}}
+    </div>
+    <div v-bind:class="{hightlight: isActive}" v-bind:style="[bindStyle]">hightlight</div>
+    <div v-on:keyup.up="keyUpMethod">keyUpMethod</div>
+    <div>
+        <input type="checkbox" id="runoob" value="Runoob" v-model="checkedNames">
+        <label for="runoob">Runoob</label>
+        <input type="checkbox" id="google" value="Google" v-model="checkedNames">
+        <label for="google">Google</label>
+        <input type="checkbox" id="taobao" value="Taobao" v-model="checkedNames">
+        <label for="taobao">taobao</label>
+        <br>
+        <span>Select Value: {{ checkedNames }}</span>
+    </div>
+    <div>
+      <runoob message="abcd"></runoob>
+    </div>
   </div>
 </template>
 
@@ -44,12 +84,31 @@ export default {
         slogan: 'Language_slogan'
       },
       kilometers: 0,
-      meters: 0
+      meters: 0,
+      Ip_Json: [
+        {id: 1, name: 'iphone 8', price: 5099, count: 1},
+        {id: 2, name: 'iphone xs', price: 8699, count: 1},
+        {id: 3, name: 'iphone xr', price: 6499, count: 1}
+      ],
+      isActive: true,
+      bindStyle: {'background-color': '#00ff00'},
+      checkedNames: []
     }
   },
   methods: {
-    reverseStr: function () {
+    reverseStr: function (event) {
       this.message = this.message.split('').reverse()
+      console.log(event.target.tagName)
+    },
+    totalPrice: function () {
+      var totalP = 0
+      for (var i = 0, len = this.Ip_Json.length; i < len; i++) {
+        totalP += this.Ip_Json[i].price * this.Ip_Json[i].count
+      }
+      return totalP
+    },
+    keyUpMethod: function () {
+      console.log('enter key')
     }
   },
   filters: {
@@ -60,15 +119,33 @@ export default {
     }
   },
   watch: {
-    kilometers: function(val) {
-      this.kilometers = val;
-      this.meters = this.kilometers * 1000;
+    kilometers: function (val) {
+      this.kilometers = val
+      this.meters = this.kilometers * 1000
     },
-    meters: function(val) {
-      this.meters = val;
-      this.kilometers = val / 1000;
+    meters: function (val) {
+      this.meters = val
+      this.kilometers = val / 1000
     }
   }
 }
 </script>
 >
+<style scoped>
+table {
+    border: 1px solid black;
+}
+table {
+    width: 100%;
+}
+
+th {
+    height: 50px;
+}
+th, td {
+    border-bottom: 1px solid #ddd;
+}
+.hightlight {
+  color: #ff0000;
+}
+</style>
