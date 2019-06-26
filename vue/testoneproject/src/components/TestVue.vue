@@ -22,6 +22,10 @@
         </li>
       </ul>
     </div>
+    <div>
+      kilometers: <input type = "text" v-model = "kilometers" /> <br />
+      meters: <input type = "text" v-model = "meters" />
+    </div>
   </div>
 </template>
 
@@ -38,7 +42,9 @@ export default {
         name: 'ABC_Name',
         url: 'DEF_Url',
         slogan: 'Language_slogan'
-      }
+      },
+      kilometers: 0,
+      meters: 0
     }
   },
   methods: {
@@ -51,6 +57,16 @@ export default {
       if (!value) return ''
       value = value.toString()
       return value.charAt(0).toUpperCase() + value.slice(1)
+    }
+  },
+  watch: {
+    kilometers: function(val) {
+      this.kilometers = val;
+      this.meters = this.kilometers * 1000;
+    },
+    meters: function(val) {
+      this.meters = val;
+      this.kilometers = val / 1000;
     }
   }
 }
