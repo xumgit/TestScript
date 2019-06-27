@@ -73,6 +73,12 @@
       {{totalCount}} <br />
       <buttonClick v-on:plusChangeValue="plusTotalCountValue"></buttonClick>
     </div>
+    <div>
+      <button v-on:click="show = !show">Animate</button>
+      <transition name="fade">
+        <p v-show="show" v-bind:style="styleobj">Show Or Hide</p>
+      </transition>
+    </div>
   </div>
 </template>
 
@@ -100,7 +106,12 @@ export default {
       isActive: true,
       bindStyle: {'background-color': '#00ff00'},
       checkedNames: [],
-      totalCount: 0
+      totalCount: 0,
+      show: true,
+      styleobj: {
+          fontSize:'30px',
+          color:'red'
+      }
     }
   },
   methods: {
