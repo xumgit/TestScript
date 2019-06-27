@@ -1,6 +1,12 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
+    <div>
+      <router-link to="/root">Go to Root</router-link> &nbsp;&nbsp;
+      <router-link to="/testVue">Go to Test</router-link>
+      <!-- resultUrl: /register?plan=private -->
+      <!--<router-link :to="{ path: 'register', query: { plan: 'private' }}">Register</router-link>-->
+    </div>
     <router-view/>
   </div>
 </template>

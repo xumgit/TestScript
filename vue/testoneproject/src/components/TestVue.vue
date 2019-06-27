@@ -66,6 +66,13 @@
     <div>
       <runoob message="abcd"></runoob>
     </div>
+    <div>
+      <IpItems v-for="item in Ip_Json" v-bind:key="item.id" v-bind:item="item"></IpItems>
+    </div>
+    <div>
+      {{totalCount}} <br />
+      <buttonClick v-on:plusChangeValue="plusTotalCountValue"></buttonClick>
+    </div>
   </div>
 </template>
 
@@ -92,7 +99,8 @@ export default {
       ],
       isActive: true,
       bindStyle: {'background-color': '#00ff00'},
-      checkedNames: []
+      checkedNames: [],
+      totalCount: 0
     }
   },
   methods: {
@@ -109,6 +117,9 @@ export default {
     },
     keyUpMethod: function () {
       console.log('enter key')
+    },
+    plusTotalCountValue: function () {
+      this.totalCount += 1
     }
   },
   filters: {
