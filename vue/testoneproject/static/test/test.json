@@ -1,0 +1,8 @@
+{
+  "name": "vuepro",
+  "version": "1.0.0",
+  "dependencies": {
+    "a": "aaa",
+    "b": "bbb"
+  }
+}
